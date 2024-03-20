@@ -54,9 +54,9 @@ export function NavBar() {
       </div>
       <header className="flex flex-wrap gap-10 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[20px]">
         <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
-          <p className="text-2xl text-button-primary">INSIGHT</p>
-          <p className="text-base">Personal</p>
-          <p className="text-base">Training</p>
+          <p className="text-2xl text-button-primary">FLOREO</p>
+          <p className="text-base">Landscaping</p>
+          <p className="text-base">& Design</p>
         </Link>
         <a
           href="tel:408-761-4606"
