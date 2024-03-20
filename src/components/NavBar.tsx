@@ -33,12 +33,12 @@ export function NavBar() {
         {/* <Link onClick={handleClick} className="text-3xl" href="/howitworks">
           How it Works
         </Link> */}
-        <Link onClick={handleClick} className="text-3xl" href="/plans&pricing">
-          Plans & Pricing
+        <Link onClick={handleClick} className="text-3xl" href="/landscaping">
+          Landscaping
         </Link>
-        {/* <Link onClick={handleClick} className="text-3xl" href="/programs">
-          Programs
-        </Link> */}
+        <Link onClick={handleClick} className="text-3xl" href="/design">
+          Design
+        </Link>
         {/* <Link onClick={handleClick} className="text-3xl" href="/nutrition">
           Nutrition
         </Link> */}
@@ -80,8 +80,11 @@ export function NavBar() {
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
           </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/plans&pricing">
-            Plans & Pricing
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/landscaping">
+            Landscaping
+          </Link>
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/design">
+            Design
           </Link>
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
             Contact
