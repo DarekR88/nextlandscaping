@@ -2,14 +2,15 @@ import Image from "next/image";
 import bigyardImg from "../../public/images/bigyardpink.jpg";
 import stonesImg from "../../public/images/stones.jpg";
 import vertwalkImg from "../../public/images/verticlewalk.jpg";
+import wetleafImg from "../../public/images/leaves.jpg";
 
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[120px] mb-[50px]">
+      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto mb-[50px]">
         <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px] lg:mt-0">
           <h2 className="mb-4 text-5xl text-center font-Playfair">
-            ABOUT <span className="text-button-primary">US</span>
+             <span className="text-button-primary text-[#dda15e]">A</span>BOUT US
           </h2>
           <p className="font-Lato text-xl">
             Welcome to Floreo, where outdoor dreams come to life. From luxurious
@@ -31,6 +32,13 @@ export default function Home() {
             <Image src={stonesImg} alt="weights" />
           </div>
         </div>
+      </div>
+
+      <div>
+        <div className="lg:h-[100px] m-auto overflow-hidden">
+          <Image src={wetleafImg} alt="indoor" />
+        </div>
+
       </div>
     </main>
   );

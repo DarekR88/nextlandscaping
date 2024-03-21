@@ -54,7 +54,7 @@ export function NavBar() {
       </div>
       <header className="flex flex-wrap gap-10 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[20px]">
         <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
-          <p className="text-2xl text-button-primary">FLOREO</p>
+          <p className="text-2xl text-[#dda15e] font-Playfair">FLOREO</p>
           <p className="text-base">Landscaping</p>
           <p className="text-base">& Design</p>
         </Link>
@@ -76,7 +76,7 @@ export function NavBar() {
           <span className="pl-1">Call or Text</span>
         </a>
 
-        <div className="hidden lg:flex gap-6">
+        <div className="hidden lg:flex gap-6 font-Lato">
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
           </Link>
