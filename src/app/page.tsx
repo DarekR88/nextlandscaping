@@ -8,10 +8,10 @@ import classicImg from "../../public/images/classicfront.jpg";
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto mb-[50px]">
+      <div className="flex flex-col-reverse lg:flex-row lg:gap-10 max-w-[1200px] m-auto mb-[50px]">
         <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px] lg:mt-0">
-          <h2 className="mb-4 text-5xl text-center font-Playfair">
-            <span className="text-[#dda15e]">F</span>LOREO
+          <h2 className="mb-3 text-4xl text-center font-Playfair">
+            <span className="text-[#dda15e]">M</span>ISSION
           </h2>
           <p className="font-Montserrat text-l">
             Welcome to Floreo, where outdoor dreams come to life. From luxurious
@@ -22,34 +22,34 @@ export default function Home() {
             experience, and creativity to bring your vision to fruition.
           </p>
         </div>
-        <div className="flex flex-row lg:w-[750px] lg:h-[275px] overflow-hidden m-auto lg:gap-4">
-          <div className="lg:w-[225px] overflow-hidden">
+        <div className="flex flex-row lg:w-[750px] lg:h-[275px] h-[180px] overflow-hidden m-auto mb-3 lg:mb-0 lg:gap-4">
+          <div className="lg:w-[225px] w-1/3 overflow-hidden">
             <Image src={bigyardImg} alt="weights" />
           </div>
-          <div className="lg:w-[225px] overflow-hidden">
+          <div className="lg:w-[225px] w-1/3 overflow-hidden">
             <Image src={vertwalkImg} alt="weights" />
           </div>
-          <div className="lg:w-[225px] overflow-hidden">
+          <div className="lg:w-[225px] w-1/3 overflow-hidden">
             <Image src={stonesImg} alt="weights" />
           </div>
         </div>
       </div>
 
       <div>
-        <div className="lg:h-[50px] m-auto overflow-hidden mb-[50px]">
+        <div className="h-[50px] m-auto overflow-hidden mb-[50px]">
           <Image src={wetleafImg} alt="indoor" />
         </div>
       </div>
 
-      <h2 className="text-center text-5xl font-Playfair lg:mb-4">
+      <h2 className="text-center text-5xl font-Playfair lg:mb-4 mb-3">
         <span className="text-[#dda15e]">O</span>ur Pro
         <span className="text-[#dda15e]">c</span>ess
       </h2>
-      <div className="flex lg:flex-row lg:max-w-[1200px] m-auto gap-7">
+      <div className="flex lg:flex-row flex-col lg:max-w-[1200px] m-auto lg:gap-7">
         <div className="lg:max-w-[590px]">
           <Image src={classicImg} alt="classic" />
         </div>
-        <p className="lg:max-w-[590px] lg:text-l font-Montserrat">
+        <p className="lg:max-w-[590px] lg:text-l lg:px-0 px-[15px] font-Montserrat">
           At Floreo, we excel in achieving the impossible. No challenge is too
           immense for our seasoned team of experts. Share your most ambitious
           projects with us, and let Floreo bring your dreams to life. Whether
