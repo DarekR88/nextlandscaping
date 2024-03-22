@@ -9,6 +9,10 @@ import whitehouseImg from "../../../public/images/whitehouse.jpg";
 import wildImg from "../../../public/images/wild.jpg";
 import alotImg from "../../../public/images/alot.jpg";
 import blossomsImg from "../../../public/images/blossoms.jpg";
+import patioImg from "../../../public/images/patiokitch.jpg";
+import fwhiteImg from "../../../public/images/fancywhite.jpg";
+import fblackImg from "../../../public/images/fancyblack.jpg";
+import tallbushImg from "../../../public/images/tallbush.jpg";
 
 export default function Landscaping() {
   return (
@@ -20,7 +24,7 @@ export default function Landscaping() {
         </h2>
         <div className="flex lg:flex-row flex-col lg:max-w-[1200px] m-auto lg:gap-7">
           <div className="lg:max-w-[590px]">
-            <Image src={wildImg} alt="classic" />
+            <Image src={patioImg} alt="classic" />
           </div>
           <p className="lg:max-w-[590px] lg:text-l lg:px-0 px-[15px] font-Montserrat">
             At Floreo, we are dedicated to crafting extraordinary outdoor spaces
@@ -63,15 +67,15 @@ export default function Landscaping() {
             living experiences.
           </p>
         </div>
-        <div className="flex flex-row lg:w-[750px] lg:h-[275px] h-[180px] overflow-hidden m-auto mb-3 lg:mb-0 lg:gap-4">
+        <div className="flex flex-row lg:w-[750px] lg:h-[260px] h-[180px] overflow-hidden m-auto mb-3 lg:mb-0 lg:gap-4">
           <div className="lg:w-[225px] w-1/3 overflow-hidden">
-            <Image src={blossomsImg} alt="weights" />
+            <Image src={fwhiteImg} alt="weights" />
           </div>
           <div className="lg:w-[225px] w-1/3 overflow-hidden">
-            <Image src={alotImg} alt="weights" />
+            <Image src={tallbushImg} alt="weights" />
           </div>
           <div className="lg:w-[225px] w-1/3 overflow-hidden">
-            <Image src={stonesImg} alt="weights" />
+            <Image src={fblackImg} alt="weights" />
           </div>
         </div>
       </div>

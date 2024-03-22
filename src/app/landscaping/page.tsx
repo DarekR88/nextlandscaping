@@ -9,6 +9,7 @@ import whitehouseImg from "../../../public/images/whitehouse.jpg";
 import wildImg from "../../../public/images/wild.jpg";
 import alotImg from "../../../public/images/alot.jpg";
 import blossomsImg from "../../../public/images/blossoms.jpg";
+import purpleImg from "../../../public/images/purple.jpg";
 
 export default function Landscaping() {
   return (
@@ -67,7 +68,7 @@ export default function Landscaping() {
             <Image src={alotImg} alt="weights" />
           </div>
           <div className="lg:w-[225px] w-1/3 overflow-hidden">
-            <Image src={stonesImg} alt="weights" />
+            <Image src={purpleImg} alt="weights" />
           </div>
         </div>
       </div>
