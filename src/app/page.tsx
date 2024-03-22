@@ -36,7 +36,7 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="h-[50px] m-auto overflow-hidden mb-[50px]">
+        <div className="h-[15px] m-auto overflow-hidden mb-[50px]">
           <Image src={wetleafImg} alt="indoor" />
         </div>
       </div>
@@ -50,14 +50,17 @@ export default function Home() {
           <Image src={classicImg} alt="classic" />
         </div>
         <p className="lg:max-w-[590px] lg:text-l lg:px-0 px-[15px] font-Montserrat">
-          At Floreo, we excel in achieving the impossible. No challenge is too
-          immense for our seasoned team of experts. Share your most ambitious
-          projects with us, and let Floreo bring your dreams to life. Whether
-          your project is grand in scale or requires intricate attention to
-          detail, rest assured, we have the expertise to handle it with finesse.
-          We can accomplish anything in terms of construction, but we specialize
-          in landscaping, outdoor construction, and creating captivating pools
-          and water features.
+          At Floreo, we thrive on surpassing expectations, turning dreams into
+          reality with finesse and expertise. Our seasoned team of experts
+          fearlessly tackles even the most daunting challenges, ensuring that no
+          project is too grand or intricate for us to handle. While we excel in
+          accomplishing the impossible across all realms of construction, our
+          true specialty lies in landscaping, outdoor construction, and the
+          creation of captivating pools and water features. From grand-scale
+          projects to those demanding meticulous attention to detail, Floreo
+          brings unparalleled skill and passion to every endeavor. Entrust us
+          with your most ambitious visions, and watch as we transform them into
+          breathtaking reality.
         </p>
       </div>
     </main>
