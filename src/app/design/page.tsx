@@ -50,24 +50,22 @@ export default function Landscaping() {
       </div>
 
       <div className="flex flex-col-reverse lg:flex-row lg:gap-10 max-w-[1200px] m-auto mb-[50px]">
-        <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px] lg:mt-0">
+        <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[550px] px-[20px] lg:mt-0">
           <h2 className="mb-3 text-4xl text-center font-Playfair">
             Design<span className="text-[#dda15e]">+</span>
           </h2>
           <p className="font-Montserrat text-l">
-            Our company's dual expertise in outdoor construction and landscaping
-            offers clients a seamless blend of architectural precision and
-            natural beauty. By combining these disciplines, we create cohesive
-            outdoor spaces that marry structural elements with lush greenery,
-            water features, and hardscape elements. This integrated approach
-            ensures not only aesthetic appeal but also maximizes functionality,
-            durability, and sustainability. From custom outdoor structures to
-            meticulously curated landscapes, our combined expertise delivers
-            exceptional results that exceed expectations and enhance outdoor
+            With expertise in outdoor construction and landscaping, we
+            seamlessly blend architectural precision with natural beauty. Our
+            approach creates cohesive outdoor spaces that integrate structural
+            elements with lush greenery, water features, and hardscape elements.
+            This ensures aesthetic appeal while maximizing functionality,
+            durability, and sustainability. From custom structures to curated
+            landscapes, our expertise exceeds expectations, enhancing outdoor
             living experiences.
           </p>
         </div>
-        <div className="flex flex-row lg:w-[750px] lg:h-[260px] h-[180px] overflow-hidden m-auto mb-3 lg:mb-0 lg:gap-4">
+        <div className="flex flex-row lg:w-[700px] lg:h-[240px] h-[180px] overflow-hidden m-auto mb-3 lg:mb-0 lg:gap-4">
           <div className="lg:w-[225px] w-1/3 overflow-hidden">
             <Image src={fwhiteImg} alt="weights" />
           </div>
