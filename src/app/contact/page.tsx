@@ -12,13 +12,13 @@ export default function Contact() {
         </div>
         <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
           <h2 className="mb-4 text-5xl font-Playfair text-center">
-            <span className="text-button-primary">C</span>ONTACT
+          <span className="text-[#dda15e]">C</span>ONTACT
           </h2>
           <p className="text-center lg:text-left mb-[15px]">
-            Connect with a real personal trainer in your area today. Whether you
-            prefer a phone call, text message, or email, our team is ready to
-            assist you on your fitness journey. Take the first step towards
-            changing your life today.
+            We're eager to hear from you! Whether you're ready to discuss your
+            next landscaping project or simply have a question for our team,
+            don't hesitate to reach out. Contact us today to schedule a
+            consultation and let us bring your outdoor dreams to life.
           </p>
           <p className="text-center mb-[15px]">
             Hours of Operation: 9:00am - 9:00pm
@@ -79,14 +79,17 @@ export default function Contact() {
 
       <div className="flex flex-col max-w-[1200px] m-auto lg:mb-[120px] mb-[50px] px-[20px]">
         <h2 className="mb-4 text-5xl font-Playfair text-center">
-          <span className="text-button-primary">DEDICATED</span> TO SUPPORT
+        <span className="text-[#dda15e]">DEDICATED</span> TO SUPPORT
         </h2>
-        <p className="text-center text-2xl font-Montserrat">
-          The first step towards changing your life for the better can be the
-          most difficult and uncomfortable. At Insight personal training, our
-          sensitive and dedicated staff will treat you with the utmost respect.
-          Our support systems are one of a kind and will provide the best
-          environment for achieving your fitness goals.
+        <p className="text-center text-xl font-Montserrat">
+          At Floreo, our commitment doesn't end once the job is complete. We
+          believe in providing ongoing support to ensure your landscaping
+          investment receives the care it deserves. Our dedication extends
+          beyond the initial project, as we offer tailored care plans to
+          maintain and enhance the beauty of your outdoor space. With Floreo,
+          you can trust that your landscape will flourish long after the
+          installation is finished, as we remain devoted to preserving and
+          nurturing the results of our work.
         </p>
       </div>
     </main>
