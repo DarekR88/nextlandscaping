@@ -11,6 +11,8 @@ const config: Config = {
       fontFamily: {
         Playfair: ["Playfair Display", "sans-serif"],
         Lato: ["Lato", "sans-serif"],
+        Roboto: ["Roboto", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

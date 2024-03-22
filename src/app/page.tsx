@@ -13,7 +13,7 @@ export default function Home() {
           <h2 className="mb-4 text-5xl text-center font-Playfair">
             <span className="text-[#dda15e]">F</span>LOREO
           </h2>
-          <p className="font-Lato text-xl">
+          <p className="font-Montserrat text-l">
             Welcome to Floreo, where outdoor dreams come to life. From luxurious
             outdoor kitchens to charming gazebos and everything in between, our
             expert team is dedicated to crafting stunning outdoor spaces that
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="lg:max-w-[590px]">
           <Image src={classicImg} alt="classic" />
         </div>
-        <p className="lg:max-w-[590px] lg:text-xl font-Lato">
+        <p className="lg:max-w-[590px] lg:text-l font-Montserrat">
           At Floreo, we excel in achieving the impossible. No challenge is too
           immense for our seasoned team of experts. Share your most ambitious
           projects with us, and let Floreo bring your dreams to life. Whether

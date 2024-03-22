@@ -52,11 +52,11 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-10 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[20px]">
-        <Link href={"/"} className="font-Anton flex flex-col tracking-widest text-xl z-0 px-3">
-          <p className="text-2xl text-[#dda15e] font-Playfair">FLOREO</p>
-          <p className="text-base">Landscaping</p>
-          <p className="text-base">& Design</p>
+      <header className="flex flex-wrap py-4 px-5 justify-center items-center w-screen lg:flex-row justify-between lg:px-20 lg:h-28 lg:mb-[20px]">
+        <Link href={"/"} className="font-Anton flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3">
+          <p className="text-5xl font-Playfair">F<span className="text-[#dda15e]">L</span>ORE<span className="text-[#dda15e]">O</span></p>
+          <p className="text-base lg:mt-auto">Landscaping</p>
+          <p className="text-base lg:mt-auto"><span className="text-[#dda15e]">&</span>Design</p>
         </Link>
         <a
           href="tel:408-761-4606"
@@ -66,7 +66,7 @@ export function NavBar() {
         >
           <Image src={PhoneSvg} alt="pfp" width={23} />
         </a>
-        <a
+        {/* <a
           href="tel:408-761-4606"
           target="_blank"
           rel="noreferrer noopener"
@@ -74,9 +74,9 @@ export function NavBar() {
         >
           <Image src={PhoneSvg} alt="pfp" width={23} />
           <span className="pl-1">Call or Text</span>
-        </a>
+        </a> */}
 
-        <div className="hidden lg:flex gap-6 font-Lato">
+        <div className="hidden lg:flex gap-6 font-Montserrat">
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
           </Link>
@@ -93,14 +93,14 @@ export function NavBar() {
             About
           </Link>
         </div>
-        <div className="flex gap-4 px-2 z-0">
-          <a
+        <div className="flex px-2 z-0">
+          {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <Image src={InstaIcon} alt="pfp" width={27} />
-          </a>
+          </a> */}
           {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
