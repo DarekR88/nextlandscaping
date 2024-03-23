@@ -17,7 +17,7 @@ export default function Home() {
             Welcome to Floreo, where outdoor dreams come to life. From luxurious
             outdoor kitchens to charming gazebos and everything in between, our
             expert team is dedicated to crafting stunning outdoor spaces that
-            exceed your expectations. Whether you're envisioning a cozy backyard
+            exceed your expectations. Whether you&#39;re envisioning a cozy backyard
             retreat or an expansive garden oasis, we have the knowledge,
             experience, and creativity to bring your vision to fruition.
           </p>

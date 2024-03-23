@@ -33,10 +33,10 @@ export default function Landscaping() {
             team brings decades of expertise to every project. From bespoke
             decks, pergolas, and gazebos that elevate outdoor living to stunning
             pools and water features that transform landscapes into luxurious
-            retreats, Floreo's skilled craftsmen bring visions to life with
+            retreats, Floreo&#39;s skilled craftsmen bring visions to life with
             precision and artistry. We take pride in our commitment to quality
             craftsmanship, attention to detail, and customer satisfaction.
-            Whether you're envisioning a tranquil oasis or an entertainer's
+            Whether you&#39;re envisioning a tranquil oasis or an entertainer&#39;s
             paradise, trust Floreo to create outdoor spaces that exceed your
             expectations and enrich your lifestyle.
           </p>

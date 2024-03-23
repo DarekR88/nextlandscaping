@@ -16,7 +16,7 @@ export default function Contact() {
             A<span className="text-[#dda15e]">B</span>OUT
           </h2>
           <p className="text-center lg:text-left mb-[15px]">
-            At Floreo Landscaping and Design, we don't just build outdoor
+            At Floreo Landscaping and Design, we don&#39;t just build outdoor
             spaces; we craft experiences. With a passion for innovation and an
             unwavering commitment to quality, we transform ordinary landscapes
             into extraordinary havens. Our team of skilled artisans combines the
@@ -35,7 +35,7 @@ export default function Contact() {
           <span className="text-[#dda15e]">DEDICATED</span> TO SUPPORT
         </h2>
         <p className="text-center text-xl font-Montserrat">
-          At Floreo, our commitment doesn't end once the job is complete. We
+          At Floreo, our commitment doesn&#39;t end once the job is complete. We
           believe in providing ongoing support to ensure your landscaping
           investment receives the care it deserves. Our dedication extends
           beyond the initial project, as we offer tailored care plans to

@@ -15,9 +15,9 @@ export default function Contact() {
           <span className="text-[#dda15e]">C</span>ONTACT
           </h2>
           <p className="text-center lg:text-left mb-[15px]">
-            We're eager to hear from you! Whether you're ready to discuss your
+            We&#39;re eager to hear from you! Whether you&#39;re ready to discuss your
             next landscaping project or simply have a question for our team,
-            don't hesitate to reach out. Contact us today to schedule a
+            don&#39;t hesitate to reach out. Contact us today to schedule a
             consultation and let us bring your outdoor dreams to life.
           </p>
           <p className="text-center mb-[15px]">
@@ -82,7 +82,7 @@ export default function Contact() {
         <span className="text-[#dda15e]">DEDICATED</span> TO SUPPORT
         </h2>
         <p className="text-center text-xl font-Montserrat">
-          At Floreo, our commitment doesn't end once the job is complete. We
+          At Floreo, our commitment doesn&#39;t end once the job is complete. We
           believe in providing ongoing support to ensure your landscaping
           investment receives the care it deserves. Our dedication extends
           beyond the initial project, as we offer tailored care plans to

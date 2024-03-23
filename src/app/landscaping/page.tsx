@@ -25,7 +25,7 @@ export default function Landscaping() {
           </div>
           <p className="lg:max-w-[590px] lg:text-l lg:px-0 px-[15px] font-Montserrat">
             Crafting luxurious outdoor spaces is an art that transcends mere
-            aesthetics; it's a symphony of artistry, functionality, and
+            aesthetics; it&#39;s a symphony of artistry, functionality, and
             environmental stewardship. At our firm, we specialize in seamlessly
             integrating natural elements with hardscape features, meticulously
             planning water features, and curating plant selections that thrive
